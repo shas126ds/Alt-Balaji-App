@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="350dp"
+    android:layout_height="wrap_content"
+    android:background="#C1C2C8"
+    android:paddingRight="21dp"
+    android:paddingLeft="21dp"
+    android:paddingBottom="11dp"
+    android:layout_gravity="center"
+    android:orientation="vertical"
+    tools:context=".MainActivity2">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:textSize="32sp"
+        android:textStyle="bold"
+        android:textColor="#FF5722"
+        android:id="@+id/txtTitle"
+        android:layout_margin="21dp"
+        android:text="Registration From"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter Name"
+        android:background="@color/white"
+        android:padding="11dp"
+        android:id="@+id/edtName"
+        android:inputType="text"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/txt_1"
+        android:textColor="#E91E63"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter Father Name"
+        android:background="@color/white"
+        android:padding="11dp"
+        android:id="@+id/edtFatherName"
+        android:inputType="text"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/txt_2"
+        android:textColor="#E91E63"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter Address"
+        android:background="@color/white"
+        android:padding="11dp"
+        android:id="@+id/edtAddress"
+        android:inputType="text"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/txt_3"
+        android:textColor="#E91E63"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter Number"
+        android:background="@color/white"
+        android:padding="11dp"
+        android:id="@+id/edtNumber"
+        android:inputType="text"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/txt_4"
+        android:textColor="#E91E63"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Email Address"
+        android:background="@color/white"
+        android:padding="11dp"
+        android:id="@+id/edtEmail"
+        android:inputType="textEmailAddress"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/txt_5"
+        android:textColor="#E91E63"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Password"
+        android:background="@color/white"
+        android:padding="11dp"
+        android:id="@+id/edtpassword"
+        android:inputType="textPassword"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/txt_6"
+        android:textColor="#E91E63"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Register Now"
+        android:textAllCaps="false"
+        android:textSize="22sp"
+        android:id="@+id/btnAction"
+        android:backgroundTint="#4CAF50"
+        android:layout_marginTop="11dp"
+        android:textColor="@color/white"
+        android:layout_gravity="end"
+        android:onClick="registerNow"
+        tools:ignore="OnClick" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Login"
+        android:textAllCaps="false"
+        android:layout_gravity="center"
+        android:onClick="login"/>
+
+
+</LinearLayout>
